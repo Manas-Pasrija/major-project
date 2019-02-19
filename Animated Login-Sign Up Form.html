@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Home | LoginPage</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="Main.css" rel="stylesheet"/>
+        <!-- <link rel="stylesheet" href="particles.css"> -->
+        <script src="jquery-1.10.2.min.js"></script>
+        <script src="JQUERY%20Main.js"></script>
+    </head>
+    <body id="bg">
+    <div id="particles-js">
+        
+        <div id="box">
+            <div id="main"></div>
+            
+            <div id="loginform">
+                <h1>LOGIN</h1>
+                <form action="#" method="POST">
+                <input type="email" placeholder="Email"  /><br>
+                <input type="password" placeholder="Password"  /><br>
+                <input type="submit" id="main_login_btn" value="LOGIN" />
+                </form>
+            </div>
+            
+            <div id="signupform">
+                <h1>SIGN UP</h1>
+                <form action="#" method="POST">
+                <input type="text" placeholder="Full Name" /><br>
+                <input type="email" placeholder="Email"  /><br>
+                <input type="password" placeholder="Password" /><br>
+                <input type="password" placeholder="confirm Password"  /><br>
+                <input type="submit" id="main_signup_btn" value="SIGN UP" /><br>
+                <p style="color:green; font-family:monospace;">Sign Up Sucessfull !!</p>
+             </form>
+            </div>
+            
+            <div id="login_msg">Have an account?</div>
+            <div id="signup_msg">Don't have an account?</div>
+            
+            <button id="login_btn">LOGIN</button>
+            <button id="signup_btn">SIGN UP</button>
+            
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.json loaded..');
+});
+    </script>
+    </body>
+</html>
